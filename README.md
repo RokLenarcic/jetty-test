@@ -2,6 +2,8 @@
 
 ## Why
 
+Using OS MacOS.
+
 I've tried some stress testing of a jetty server and I couldn't understand why I kept getting `apr_socket_recv: Connection reset by peer (54)` error.
 
 The error happens sometimes, but not always. I am sure there's a reasonable explanation, but I don't see it.
