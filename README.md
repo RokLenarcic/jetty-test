@@ -11,7 +11,7 @@ The error happens sometimes, but not always. I am sure there's a reasonable expl
 Run the main class ExampleJetty and then run 
 
 ```
-ab -k -n 10000 -c 100 http://localhost:4003/xx
+ab -k -n 10000 -c 200 http://localhost:4003/xx
 ```
 
 If I run this command 10 times, about 5 times I get the expected result:
